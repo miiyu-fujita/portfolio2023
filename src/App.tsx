@@ -1,24 +1,15 @@
 import React from 'react';
+import LoadingPage from './components/loadingPage/LoadingPage';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="background background-color">
+      <Parallax pages={5}>
+        <ParallaxLayer></ParallaxLayer>
+      </Parallax>
     </div>
   );
 }
