@@ -1,0 +1,22 @@
+.about-page-body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-page-heading {
+  font-size: 50px;
+  font-weight: 600;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.about-page-text {
+  color: #f8f7ff;
+  font-family: 'Inter', sans-serif;
+  width: 50vw;
+}
+
+.experience-container {
+  width: 50vw;
+}
