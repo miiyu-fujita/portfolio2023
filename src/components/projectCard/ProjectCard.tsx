@@ -3,30 +3,40 @@ import './ProjectCard.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
-function ProjectCard() {
+interface IProjectCard {
+  projectTitle: string;
+  projectImgName: string;
+  projectDescription: string;
+  projectTech: string;
+}
+
+function ProjectCard(props: IProjectCard) {
   return (
     <div className="project-card-glassy">
-      <h3 className="project-card-title">
-        Automated Storage and Delivery System
-      </h3>
+      <h3 className="project-card-title">{props.projectTitle}</h3>
       <div className="project-card-line"></div>
       <div className="project-card-img-container">
         <img
           className="project-card-img"
-          src={require('../../images/dpm.png')}
-          alt="dpm"
+          src={require(`../../images/${props.projectImgName}`)}
         />
       </div>
       <div className="project-description-container">
-        <p className="project-card-description">
-          Prototype system to automatically store and deliver requested items,
-          implemented using Rasberry Pi, LegoEV3 tools, and the Python
-          programming language.
-        </p>
+        <p className="project-card-description">{props.projectDescription}</p>
+      </div>
+      <div className="project-card-tech">
+        <p>{props.projectTech}</p>
       </div>
       <div className="project-card-line"></div>
-      <div className="project-card-tech">
-        <GitHubIcon fontSize="large" />
+      <div className="project-card-links">
+        <a
+          href="https://github.com/miiyu-fujita/create-your-golf"
+          target="_blank"
+          className="project-link"
+        >
+          <GitHubIcon fontSize="large" />
+        </a>
+
         <YouTubeIcon fontSize="large" />
       </div>
     </div>

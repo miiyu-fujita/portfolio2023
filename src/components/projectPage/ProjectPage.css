@@ -1,6 +1,8 @@
 .project-page-body {
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .project-page-text {
@@ -11,7 +13,7 @@
 }
 
 .project-page-heading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   top: 0%;
   left: 10%;
@@ -20,11 +22,10 @@
 
 .project-cards-container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10%;
+  justify-content: space-evenly;
+  margin-top: 3%;
   position: absolute;
-  left: 10%;
-  width: 80vw;
+  width: 95vw;
   top: 3%;
   flex-wrap:wrap;
 }
