@@ -1,0 +1,30 @@
+.project-page-body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.project-page-text {
+  color: #f8f7ff;
+  font-family: 'Inter', sans-serif;
+  left: 10%;
+  position: absolute;
+}
+
+.project-page-heading {
+  font-size: 50px;
+  font-weight: 600;
+  top: 0%;
+  left: 10%;
+  margin: 0;
+}
+
+.project-cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  position: absolute;
+  left: 10%;
+  width: 80vw;
+  top: 3%;
+  flex-wrap:wrap;
+}
