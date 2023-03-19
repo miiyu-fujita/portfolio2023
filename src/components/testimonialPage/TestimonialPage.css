@@ -28,10 +28,11 @@
   font-size: 1.8vw;
   margin: 10% 4% 1%;
   text-align: center;
+  font-weight: 300;
 }
 
 .testimonial-highlight {
-  font-weight: bold;
+  font-weight: 500;
   color: rgb(255, 255, 255);
 }
 
@@ -56,4 +57,63 @@
   width: 30%;
   font-size: 10vw;
   height: 15vh;
+}
+
+@media (max-width: 850px) {
+  .testimonial-glassy {
+    color: #f8f7ff;
+    font-family: 'Inter', sans-serif;
+    width: 60vw;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    align-items: center;
+    margin: 10%;
+    overflow: hidden;
+    height: fit-content;
+    text-align: justify;
+  }
+
+  .testimonial {
+    font-size: 4vw;
+    line-height: 1.5;
+    margin: 12% 10% 1%;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .testimonial-highlight {
+    font-weight: 500;
+    color: #f8f7ff;
+  }
+
+  .testimonial-giver {
+    display: flex;
+    width: 100%;
+    font-weight: 200;
+  }
+
+  .testimonial-giver-profile {
+    text-align: left;
+    padding: 0% 4% 6%;
+    width: 70%;
+    font-size: 3vw;
+  }
+
+  .testimonial-giver-profile-role {
+    font-style: italic;
+  }
+
+  .quote-icon {
+    width: 30%;
+    padding-left: 10%;
+    padding-top: 3%;
+    font-size: 10vw;
+    height: 15vh;
+  }
 }

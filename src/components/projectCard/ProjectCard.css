@@ -72,11 +72,17 @@
 }
 
 .project-link:hover {
-  color:rgb(16, 16, 16);
+  color: rgb(16, 16, 16);
 }
 
 .project-card-line {
   height: 1px;
   width: 100%;
   background: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 830px) {
+  .project-card-glassy {
+    width: 50%;
+  }
 }

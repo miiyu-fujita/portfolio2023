@@ -25,3 +25,13 @@
   font-weight: 100;
   font-size: 20px;
 }
+
+@media (max-width: 800px) {
+  .intro-text {
+    position: absolute;
+    color: #f8f7ff;
+    font-family: 'Inter', sans-serif;
+    top: 30%;
+    left: 9%;
+  }
+}

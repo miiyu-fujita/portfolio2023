@@ -2,24 +2,54 @@
   height: 100vh;
   width: 100vw;
   display: flex;
+  align-items: center;
 }
 
 .about-page-heading {
-  font-size: 50px;
+  font-size: 5vw;
   font-weight: 600;
-  position: absolute;
-  top: 20%;
-  left: 10%;
 }
 
 .about-page-text {
   color: #f8f7ff;
   font-family: 'Inter', sans-serif;
-  width: 50vw;
+  height: fit-content;
+  text-align: center;
+  width: 50%;
 }
 
 .experience-container {
-  width: 50vw;
-  position: relative;
-  left: 5%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 850px) {
+  .about-page-body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-page-heading {
+    font-size: 10vw;
+    font-weight: 600;
+    margin-bottom: 1%;
+  }
+
+  .about-page-text {
+    color: #f8f7ff;
+    font-family: 'Inter', sans-serif;
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+  }
+
+  .experience-container {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
