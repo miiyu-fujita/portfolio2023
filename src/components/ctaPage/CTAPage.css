@@ -1,0 +1,34 @@
+.cta-page-body {
+  height: 100vh;
+  width: 100vw;
+  color: #f8f7ff;
+  font-family: 'Inter', sans-serif;
+}
+
+.cta-page-heading {
+  font-size: 5vh;
+  padding: 15% 7%;
+}
+
+.cta-prompt {
+  padding: 0 7%;
+  font-size: 2.5vh;
+  font-weight: 200;
+}
+
+.cta-links {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 7%;
+  font-weight: 200;
+}
+
+.cta-link {
+  color: #f8f7ff;
+}
+
+.cta-link:hover {
+  color: rgb(16, 16, 16);
+}
