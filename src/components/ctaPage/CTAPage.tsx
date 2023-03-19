@@ -12,6 +12,7 @@ function CTAPage() {
           className="cta-link"
           href={require('../../documents/Miiyu_Fujita_Resume_2023 (5).pdf')}
           target="_blank"
+          rel="noreferrer"
         >
           My Resume
         </a>
@@ -19,6 +20,7 @@ function CTAPage() {
           className="cta-link"
           href="https://www.linkedin.com/in/miiyu-fujita/"
           target="_blank"
+          rel="noreferrer"
         >
           My LinkedIn
         </a>
@@ -26,6 +28,7 @@ function CTAPage() {
           className="cta-link"
           href="https://github.com/miiyu-fujita"
           target="_blank"
+          rel="noreferrer"
         >
           My GitHub
         </a>
@@ -33,6 +36,7 @@ function CTAPage() {
           className="cta-link"
           href="mailto: miiyu.fujita@mail.mcgill.ca"
           target="_blank"
+          rel="noreferrer"
         >
           My Email
         </a>

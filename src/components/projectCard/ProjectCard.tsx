@@ -35,6 +35,7 @@ function ProjectCard(props: IProjectCard) {
           className="project-link"
           href={`${props.githubLink}`}
           target="_blank"
+          rel="noreferrer"
         >
           <GitHubIcon fontSize="large" />
         </a>
@@ -42,6 +43,7 @@ function ProjectCard(props: IProjectCard) {
           className="project-link"
           href={`${props.previewLink}`}
           target="_blank"
+          rel="noreferrer"
         >
           <PreviewIcon fontSize="large" />
         </a>
