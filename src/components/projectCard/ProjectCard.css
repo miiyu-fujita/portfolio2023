@@ -71,6 +71,10 @@
   color: #f8f7ff;
 }
 
+.project-link:hover {
+  color:black;
+}
+
 .project-card-line {
   height: 1px;
   width: 100%;

@@ -6,6 +6,7 @@ import './App.css';
 import IntroPage from './components/introPage/IntroPage';
 import AboutPage from './components/aboutPage/AboutPage';
 import ProjectPage from './components/projectPage/ProjectPage';
+import TestimonialPage from './components/testimonialPage/TestimonialPage';
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
         <ParallaxLayer offset={1} speed={1}>
           <AboutPage />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={1}>
+        <ParallaxLayer factor={3} offset={2} speed={1}>
           <ProjectPage />
+        </ParallaxLayer>
+        <ParallaxLayer offset={3.8} speed={1}>
+          <TestimonialPage />
         </ParallaxLayer>
       </Parallax>
     </div>

@@ -1,13 +1,15 @@
 import React from 'react';
 import './ProjectCard.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import PreviewIcon from '@mui/icons-material/Preview';
 
 interface IProjectCard {
   projectTitle: string;
   projectImgName: string;
   projectDescription: string;
   projectTech: string;
+  githubLink: string;
+  previewLink: string;
 }
 
 function ProjectCard(props: IProjectCard) {
@@ -30,14 +32,19 @@ function ProjectCard(props: IProjectCard) {
       <div className="project-card-line"></div>
       <div className="project-card-links">
         <a
-          href="https://github.com/miiyu-fujita/create-your-golf"
-          target="_blank"
           className="project-link"
+          href={`${props.githubLink}`}
+          target="_blank"
         >
           <GitHubIcon fontSize="large" />
         </a>
-
-        <YouTubeIcon fontSize="large" />
+        <a
+          className="project-link"
+          href={`${props.previewLink}`}
+          target="_blank"
+        >
+          <PreviewIcon fontSize="large" />
+        </a>
       </div>
     </div>
   );

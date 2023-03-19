@@ -1,8 +1,8 @@
 .project-page-body {
-  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
+  height: inherit;
 }
 
 .project-page-text {
@@ -27,5 +27,5 @@
   position: absolute;
   width: 95vw;
   top: 3%;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
