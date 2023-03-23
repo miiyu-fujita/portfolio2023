@@ -45,7 +45,7 @@
   margin-top: 3%;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 650px) {
   .experience-company {
     font-size: 3.5vw;
     font-weight: 500;

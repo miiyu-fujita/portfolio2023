@@ -1,4 +1,5 @@
-# 💻 Portfolio Website 2023 
-My portfolio website, developed with React & Typescript. If you're on desktop, you can check it out! (Mobile view is kind of laggy because of the parallax effect)
+# 💻 Portfolio Website 2023
+
+My portfolio website, developed with React, Typescript & CSS. It's an updated version of my previous website :)
 
 Here's the link: https://exquisite-mochi-4c8bd6.netlify.app/

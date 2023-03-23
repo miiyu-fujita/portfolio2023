@@ -13,7 +13,7 @@ function TestimonialPage() {
             autonomy, professionalism and trustworthiness.{' '}
           </span>
           For future employers, there are certain qualities of Miiyu that will
-          stand out form the crowd upon entry and will be a great assed to any
+          stand out form the crowd upon entry and will be a great asset to any
           organization.
         </p>
         <div className="testimonial-giver">

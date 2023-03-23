@@ -17,9 +17,9 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 650px) {
   .experience-box-glassy {
-    width: 65vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
