@@ -30,6 +30,15 @@
 }
 
 @media (max-width: 830px) {
+  .project-page-body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+  }
+
   .project-cards-container {
     margin-top: 10%;
     /* overflow-y: scroll; */
@@ -37,7 +46,7 @@
   }
 
   .project-page-heading {
-    font-size: 5vw;
+    font-size: 4vh;
     font-weight: 600;
     padding-left: 8%;
     margin-top: 30%;
