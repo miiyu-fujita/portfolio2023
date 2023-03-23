@@ -2,4 +2,4 @@
 
 My portfolio website, developed with React, Typescript & CSS. It's an updated version of my previous website :)
 
-Here's the link: https://exquisite-mochi-4c8bd6.netlify.app/
+Here's the link: https://test-portfolio-2023.netlify.app/
