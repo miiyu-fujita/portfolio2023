@@ -12,23 +12,14 @@ import CTAPage from './components/ctaPage/CTAPage';
 function App() {
   return (
     <div className="background background-color">
-      <Parallax pages={5}>
-        <ParallaxLayer offset={0} speed={1}>
-          <IntroPage />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={1}>
-          <AboutPage />
-        </ParallaxLayer>
-        <ParallaxLayer factor={3} offset={2} speed={1}>
-          <ProjectPage />
-        </ParallaxLayer>
-        <ParallaxLayer offset={3.8} speed={1}>
-          <TestimonialPage />
-        </ParallaxLayer>
-        <ParallaxLayer offset={4} speed={1}>
-          <CTAPage />
-        </ParallaxLayer>
-      </Parallax>
+      <IntroPage />
+
+      <AboutPage />
+
+      <ProjectPage />
+
+      <TestimonialPage />
+      <CTAPage />
     </div>
   );
 }
