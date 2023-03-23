@@ -17,7 +17,6 @@
   font-size: 40px;
   font-weight: 600;
   padding-left: 8%;
-  margin: 0;
 }
 
 .project-cards-container {
@@ -40,6 +39,6 @@
     font-size: 5vw;
     font-weight: 600;
     padding-left: 8%;
-    margin: 0;
+    margin-top: 30%;
   }
 }
