@@ -11,7 +11,9 @@ function ExperienceEntry(props: ExperienceEntry) {
       <h4 className="experience-company">{props.companyName}</h4>
       <div className="experience-role-and-circle">
         <div className="circle"></div>
-        <p className="experience-role">{props.experienceRole}</p>
+        <div>
+          <p className="experience-role">{props.experienceRole}</p>
+        </div>
       </div>
       <div className="experience-time-and-line">
         <div className="line"></div>
