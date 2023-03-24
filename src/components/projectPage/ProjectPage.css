@@ -40,15 +40,15 @@
   }
 
   .project-cards-container {
-    margin-top: 10%;
+    margin-top: 5%;
     /* overflow-y: scroll; */
     height: fit-content;
   }
 
   .project-page-heading {
-    font-size: 4vh;
+    font-size: 4.5vh;
     font-weight: 600;
     padding-left: 8%;
-    margin-top: 30%;
+    margin-top: 40%;
   }
 }
