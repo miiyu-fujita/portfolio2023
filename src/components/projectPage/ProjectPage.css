@@ -46,9 +46,10 @@
   }
 
   .project-page-heading {
-    font-size: 4.5vh;
+    font-size: 35px;
     font-weight: 600;
     padding-left: 8%;
     margin-top: 40%;
+    margin-right: 6%;
   }
 }
