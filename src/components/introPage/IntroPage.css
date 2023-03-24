@@ -14,7 +14,6 @@
 .intro-heading-text {
   font-size: 80px;
   font-weight: 600;
-  margin-top: 0;
 }
 
 .intro-subheading-text {
@@ -27,12 +26,18 @@
   font-size: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .intro-text {
     position: absolute;
     color: #f8f7ff;
     font-family: 'Inter', sans-serif;
     top: 30%;
     left: 9%;
+  }
+
+  .intro-heading-text {
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 0;
   }
 }
