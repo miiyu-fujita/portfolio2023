@@ -2,9 +2,12 @@ import React from 'react';
 import ExperienceBox from '../experienceBox/ExperienceBox';
 import './AboutPage.css';
 
-function AboutPage() {
+interface IAboutPage {
+  id: string;
+}
+function AboutPage(props: IAboutPage) {
   return (
-    <div className="about-page-body">
+    <div id={props.id} className="about-page-body">
       <div className="about-page-text">
         <h2 className="about-page-heading">Where I've Been</h2>
       </div>

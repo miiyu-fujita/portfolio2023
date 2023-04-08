@@ -1,8 +1,12 @@
 import React from 'react';
 import './CTAPage.css';
-function CTAPage() {
+
+interface ICTAPage {
+  id: string;
+}
+function CTAPage(props: ICTAPage) {
   return (
-    <div className="cta-page-body">
+    <div id={props.id} className="cta-page-body">
       <h1 className="cta-page-heading">
         Thank you for taking the time to visit!{' '}
       </h1>

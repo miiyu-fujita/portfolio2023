@@ -3,9 +3,12 @@ import ProjectCard from '../projectCard/ProjectCard';
 
 import './ProjectPage.css';
 
-function ProjectPage() {
+interface IProjectPage {
+  id: string;
+}
+function ProjectPage(props: IProjectPage) {
   return (
-    <div className="project-page-body">
+    <div id={props.id} className="project-page-body">
       <div className="project-page-text">
         <h2 className="project-page-heading">Some projects I've worked on</h2>
       </div>
