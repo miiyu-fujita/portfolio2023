@@ -14,7 +14,7 @@ function CTAPage(props: ICTAPage) {
       <div className="cta-links">
         <a
           className="cta-link"
-          href={require('../../documents/Miiyu_Fujita_Resume_2023 (5).pdf')}
+          href={require('../../documents/Miiyu_Fujita_Resume_2023 (6).pdf')}
           target="_blank"
           rel="noreferrer"
         >
