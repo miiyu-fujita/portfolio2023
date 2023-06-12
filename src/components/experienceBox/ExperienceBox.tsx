@@ -6,9 +6,14 @@ function ExperienceBox() {
   return (
     <div className="experience-box-glassy">
       <ExperienceEntry
+        companyName="Haivision"
+        experienceRole="Software Development Intern"
+        experienceTime="May 2023 - Present"
+      />
+      <ExperienceEntry
         companyName="Pomerleau"
         experienceRole="Software Developer Intern"
-        experienceTime="Jan. 2023 - Present"
+        experienceTime="Jan. 2023 - Apr. 2022"
       />
       <ExperienceEntry
         companyName="McGill University"

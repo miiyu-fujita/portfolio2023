@@ -1,0 +1,146 @@
+.toggle {
+  height: 20px;
+  width: 40px;
+  border-radius: 50px;
+  box-shadow: 0 0 2px white;
+  background-image: linear-gradient(
+    rgba(180, 255, 195, 0.12),
+    rgb(218, 183, 255)
+  );
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle.night {
+  background-image: linear-gradient(rgba(180, 255, 195, 0.12), rgb(0, 2, 58));
+}
+
+.notch {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: lightyellow;
+  box-shadow: 0 0 5px pink;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  transition: all 0.3s ease;
+}
+
+.night > .notch {
+  background: whitesmoke;
+  box-shadow: 0 0 5px whitesmoke;
+  transform: translate(18px, 0);
+}
+
+.cloud {
+  position: absolute;
+  background: #f8f7ff;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.light .cloud {
+    box-shadow: 0 0 5px 1px gainsboro;
+}
+
+.cloud.sm {
+  width: 5px;
+  height: 3px;
+  top: 68%;
+  left: 55%;
+}
+
+.cloud.md {
+  width: 8px;
+  height: 4px;
+  top: 55%;
+  left: 75%;
+}
+
+.cloud.lg {
+  width: 15px;
+  height: 6px;
+  top: 10%;
+  left: 30%;
+}
+
+.light .cloud:after,
+.light .cloud:before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.cloud.sm::before {
+  width: 2.5px;
+  height: 3.5px;
+  top: -13px;
+  left: 1px;
+}
+
+.cloud.sm::after {
+  width: 1.5px;
+  height: 2.5px;
+  top: -13.5px;
+  left: 0.5px;
+}
+
+.cloud.md::before {
+  width: 4px;
+  height: 3.5px;
+  top: -14px;
+  left: 1px;
+}
+
+.cloud.md::after {
+  width: 2px;
+  height: 2.5px;
+  top: -14.5px;
+  left: 0.5px;
+}
+
+.cloud.lg::before {
+  width: 7px;
+  height: 6.5px;
+  top: -13px;
+  left: 1px;
+}
+
+.cloud.lg::after {
+  width: 4px;
+  height: 2.5px;
+  top: -14.5px;
+  left: 0.5px;
+}
+
+.night .cloud {
+  background: gold;
+  box-shadow: 0 0 8px 2px lightyellow;
+}
+
+.night .cloud.sm {
+  height: 2px;
+  width: 2px;
+  transform: translate(-13px, -8px);
+}
+
+.night .cloud.sm:first-of-type {
+  height: 2px;
+  width: 2px;
+  transform: translate(-7px, -2px);
+}
+
+.night .cloud.md {
+  height: 4px;
+  width: 4px;
+  transform: translate(8px, -10px);
+}
+
+.night .cloud.lg {
+  height: 5px;
+  width: 5px;
+  transform: translate(20px, 10px);
+}
