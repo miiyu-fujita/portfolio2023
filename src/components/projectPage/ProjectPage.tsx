@@ -14,6 +14,14 @@ function ProjectPage(props: IProjectPage) {
       </div>
       <div className="project-cards-container">
         <ProjectCard
+          projectTitle="MunchPoints"
+          projectImgName="MunchPoints.png"
+          projectDescription="A platform connecting businesses and students to fight food insecurity, developed during WaffleHacks."
+          projectTech=" MongoDB • Express • React • Node "
+          githubLink="https://github.com/Muqto/WaffleHacks"
+          previewLink="https://devpost.com/software/munchpoints"
+        />
+        <ProjectCard
           projectTitle="Create-Your-Golf"
           projectImgName="create-your-golf.png"
           projectDescription="Golf ball customization service landing page"
@@ -49,7 +57,7 @@ function ProjectPage(props: IProjectPage) {
           projectTitle="Automated Storage and Delivery System"
           projectImgName="dpm.png"
           projectDescription="A robot that sorts and delivers things"
-          projectTech="Rasberry Pi • LegoEV3 • Python"
+          projectTech="Rasberry Pi • Python"
           githubLink="https://github.com/miiyu-fujita/Automated-Cube-Sorting-and-Storing-System"
           previewLink="https://www.youtube.com/watch?v=IlhDPOigXRw&ab_channel=MiiyuFujita"
         />
