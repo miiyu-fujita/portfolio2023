@@ -8,7 +8,7 @@ function ExperienceBox() {
       <ExperienceEntry
         companyName="Haivision"
         experienceRole="Software Development Intern"
-        experienceTime="May 2023 - Present"
+        experienceTime="May 2023 - Sep. 2023"
       />
       <ExperienceEntry
         companyName="Pomerleau"
