@@ -14,7 +14,7 @@ function CTAPage(props: ICTAPage) {
       <div className="cta-links">
         <a
           className="cta-link"
-          href="https://docs.google.com/document/d/1XuQ5zpsLMFkT-qo6eahgfQRHz-U7GDKoanax5wvblRI/edit?usp=sharing"
+          href={require('../../documents/Miiyu_Fujita_Resume_S2024.pdf')}
           target="_blank"
           rel="noreferrer"
         >
